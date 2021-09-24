@@ -13,6 +13,10 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let hashtag = "";
+  for (triangle = 1; triangle <= 7; triangle++){
+    console.log(hashtag = hashtag + "#");
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

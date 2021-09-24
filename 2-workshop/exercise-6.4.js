@@ -6,6 +6,9 @@ function exercise6_4() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (i = 36; i >= 0; i--){
+    console.log(i--);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

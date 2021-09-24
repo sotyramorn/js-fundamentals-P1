@@ -53,6 +53,12 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+let sentence = 'Hello World'
+if (sentence.includes('Hello')) {
+    console.log('Sentence DOES contain the word "Hello"');
+} else {
+    console.log('Sentence DOES NOT contain the word "Hello"');
+}
 
 ```
 
@@ -66,6 +72,14 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
+
+const first = 0;
+const second = 1;
+const third = 0;
+const array = [[1, [2, 3]]];
+
+console.log(array[first][second][third])
 
 ```
 
@@ -81,21 +95,35 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 ```
 // Your solution here!
 
+let currentNum = 10;
+let min = 5;
+
+while (currentNum > min) {
+    currentNum = currentNum - 1;
+    console.log(currentNum);
+}
 ```
 
 ## Question 4: Reverse the string to check for hidden messages
 
 1. const reversedArray = letterArray.reverse();
-2. console.log('Your message:', reversedString)
-3. const letterArray = encodedMessage.split('');
-4. const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT';
-5. if (reversedString.includes('treasure')) {
+2. console.log('Your message:', reversedString) 
+3. const letterArray = encodedMessage.split(''); 
+4. const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT'; 
+5. if (reversedString.includes('treasure')) { 
 6. }
 7. const reversedString = reversedArray.join('');
 
 ```
 // Your solution here!
+const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT';
+const letterArray = encodedMessage.split('');
+const reversedArray = letterArray.reverse();
+const reversedString = reversedArray.join('');
 
+if (reversedString.includes('treasure')) {
+    console.log('Your message:', reversedString)
+}
 ```
 
 ## Question 5: Add all the numbers from 10 to 0
@@ -110,6 +138,14 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
+let count = 10;
+let total = 0;
+while (count > 0) {
+    count = count - 1;
+    total = total + count;
+    console.log('The total is:', total)
+}
 
 ```
 
@@ -127,5 +163,24 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
+let includesNumber;
+let array = [1, 3, 7, 4, 5, 2, 1];
+let numberToSearchFor = 5;
+let item = array[i];
+for (let i = 0; i < array.length; i++) {
+    if (item === numberToSearchFor) {
+        console.log('Array includes the number!')
+    }
+}
+
+
+
+
+
+
+
+
+
 
 ```
